@@ -34,3 +34,10 @@ mongoose.connect(dbConfig.url)
     console.log('Could not connect to the database. Exiting now...');
     process.exit();
 });
+
+// ........
+
+// Require Notes routes
+require('./app/routes/note.routes.js')(app);
+
+// ........
