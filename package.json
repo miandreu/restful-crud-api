@@ -1,0 +1,31 @@
+{
+  "name": "restful-crud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miandreu/restful-crud-api.git"
+  },
+  "author": "miandreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miandreu/restful-crud-api/issues"
+  },
+  "homepage": "https://github.com/miandreu/restful-crud-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6"
+  }
+}
